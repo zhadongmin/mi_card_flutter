@@ -1,0 +1,34 @@
+name: mi_card_flutter
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - images/avatar.jpeg
+
+  fonts:
+    - family: Bangers
+      fonts:
+        - asset: fonts/Bangers-Regular.ttf
+          style: normal
+    - family: Freehand
+      fonts:
+        - asset: fonts/Freehand-Regular.ttf
+          style: normal
+    - family: SedgwickAveDisplay
+      fonts:
+        - asset: fonts/SedgwickAveDisplay-Regular.ttf
+          style: normal
